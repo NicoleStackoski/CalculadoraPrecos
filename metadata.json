@@ -1,0 +1,6 @@
+{
+  "name": "Calculadora Comercial - Mohawk Brasil",
+  "description": "Calculadora comercial profissional de deflação de preços por tabela de prazos financeiros e conversão de ICMS.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

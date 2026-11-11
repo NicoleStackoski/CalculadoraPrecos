@@ -1,0 +1,27 @@
+@import "tailwindcss";
+
+@layer base {
+  *, ::before, ::after {
+    font-family: 'Lato', system-ui, -apple-system, sans-serif;
+  }
+
+  body {
+    font-family: 'Lato', system-ui, -apple-system, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  input, button, select, textarea, table {
+    font-family: 'Lato', system-ui, -apple-system, sans-serif;
+  }
+
+  /* Remove default spinner arrows in number inputs for cleaner UI */
+  input[type="number"]::-webkit-inner-spin-button,
+  input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+  input[type="number"] {
+    -moz-appearance: textfield;
+  }
+}
